@@ -1,0 +1,478 @@
+@import "var";
+
+
+.project-master{
+    width: 100%;
+    min-height: 120vh;
+}
+
+.project-heading{
+    width: 100%;
+    height: 17.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    margin-top: 2%;
+
+    &--h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.6rem;
+   }
+
+    hr{
+        width: 8%;
+        height: 4px;
+        border: none;
+        background: black;
+        margin-top: 1.5%;
+    }
+}
+
+.project-container{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+
+    &__left{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        background: url(../img/house3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 15%;
+        margin-right: 5%;
+
+        &--box{
+            height: 25%;
+            background: #838383;
+            margin-left: 2rem;
+            margin-top: 30%;
+            color: white;
+
+            a{
+                color: white;
+            }
+        }
+
+        &--h1{
+            padding: 2%;
+            padding-bottom: 3%;
+            letter-spacing: 0.2rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+            padding-top: 3%;
+        }
+
+        &--p{
+            padding-left: 2%;
+            letter-spacing: 0.1rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+        }
+    }
+
+    &__right{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        background: url(../img/house5.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 5%;
+        margin-right: 15%;
+
+        &--box{
+            height: 25%;
+            background: #838383;
+            margin-left: 2rem;
+            margin-top: 30%;
+            color: white; 
+        }
+
+        &--h1{
+            padding: 2%;
+            padding-bottom: 3%;
+            letter-spacing: 0.2rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+            padding-top: 3%;
+        }
+
+        &--p{
+            padding-left: 2%;
+            letter-spacing: 0.1rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+        }
+    }
+}
+
+
+
+.project-container2{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+
+    &__left2{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        background: url(../img/house1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 15%;
+        margin-right: 5%;
+
+        &--box{
+            height: 25%;
+            background: #838383;
+            margin-left: 2rem;
+            margin-top: 30%;
+            color: white; 
+        }
+
+        &--h1{
+            padding: 3%;
+            padding-bottom: 3%;
+            letter-spacing: 0.2rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+            padding-top: 3%;
+        }
+
+        &--p{
+            padding-left: 3%;
+            letter-spacing: 0.1rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+        }
+    }
+
+    &__right2{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        background: url(../img/house4.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 5%;
+        margin-right: 15%;
+
+        &--box{
+            height: 25%;
+            background: #838383;
+            margin-left: 2rem;
+            margin-top: 30%;
+            color: white; 
+        }
+
+        &--h1{
+            padding: 2%;
+            padding-bottom: 3%;
+            letter-spacing: 0.2rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+            padding-top: 3%;
+        }
+
+        &--p{
+            padding-left: 2%;
+            letter-spacing: 0.1rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+        }
+    }
+}
+
+.project-container3{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+
+    &__left3{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        background: url(../img/house2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 15%;
+        margin-right: 5%;
+
+        &--box{
+            height: 25%;
+            background: #838383;
+            margin-left: 2rem;
+            margin-top: 30%;
+            color: white; 
+        }
+
+        &--h1{
+            padding: 2%;
+            padding-bottom: 3%;
+            letter-spacing: 0.2rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+            padding-top: 3%;
+        }
+
+        &--p{
+            padding-left: 2%;
+            letter-spacing: 0.1rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+        }
+    }
+
+    &__right3{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        background: url(../img/newhouseaddition.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 5%;
+        margin-right: 15%;
+
+        &--box{
+            height: 25%;
+            background: #838383;
+            margin-left: 2rem;
+            margin-top: 30%;
+            color: white; 
+        }
+
+        &--h1{
+            padding: 2%;
+            padding-bottom: 3%;
+            letter-spacing: 0.2rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+            padding-top: 3%;
+        }
+
+        &--p{
+            padding-left: 2%;
+            letter-spacing: 0.1rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bold;
+        }
+    }
+}
+
+
+
+@media #{$mobile}{
+
+    .project-master{
+        width: 100%;
+        min-height: 200vh;
+    }
+    
+    .project-container{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 40px;
+    
+        &__left{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 5%;
+        }
+    
+        &__right{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 100%;
+        }
+    }
+
+    .project-container2{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 40px;
+        margin-top: 285px;
+
+        &__left2{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 5%;
+        }
+    
+        &__right2{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;   
+        }
+    }
+
+    .project-container3{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 40px;
+        margin-top: 285px;
+
+        &__left3{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 5%;
+        }
+    
+        &__right3{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+ 
+@media #{$tablet}{
+
+    .project-heading{
+        margin-top: 2.5%;
+    
+        &--h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+        font-size: 4rem;
+        letter-spacing: 0.6rem;
+       }
+    }
+
+    .project-container{
+    
+        &__left{
+    
+            &--box{
+                margin-left: 0rem;
+                margin-top: 54%;
+            }
+        }
+        &__right{
+    
+            &--box{
+                margin-left: 0rem;
+                margin-top: 54%;
+            }
+        }
+    }
+
+    .project-container2{
+    
+        &__left2{
+    
+            &--box{
+                margin-left: 0rem;
+                margin-top: 54%;
+            }
+        }
+        &__right2{
+    
+            &--box{
+                margin-left: 0rem;
+                margin-top: 54%;
+            }
+        }
+    }
+
+    .project-container3{
+    
+        &__left3{
+    
+            &--box{
+                margin-left: 0rem;
+                margin-top: 54%;
+            }
+        }
+        &__right3{
+    
+            &--box{
+                margin-left: 0rem;
+                margin-top: 54%;
+            }
+        }
+    }  
+}
+
+
+@media #{$desktop}{
+}
+
+

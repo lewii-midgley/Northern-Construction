@@ -1,0 +1,203 @@
+@import "var";
+
+.aboutPage-master{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutPage-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutPage__right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutPage__left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 15%;
+
+    &--heading{
+        font-size: 5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        color: #82191E;
+        padding-bottom: 3rem;
+        letter-spacing: 0.4rem;
+    }
+
+    &--subHeading{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        font-size: 2rem;
+        padding-bottom: 3rem;
+        letter-spacing: 0.2rem;
+        max-width: 42ch;
+    }
+
+    &--text{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        padding-bottom: 3rem;
+        letter-spacing: 0.2rem;
+        max-width: 60ch;
+    }
+}
+
+
+.aboutPage__right--img{
+    height: 80%;
+    padding: 2rem;
+    padding-right: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media #{$mobile}{
+
+    .aboutPage-master{
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .aboutPage-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .aboutPage__right{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 1.5%;
+        margin-top: 2%;
+    }
+    
+    .aboutPage__left{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-end ;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 0;
+        margin-top: 5%;
+
+        &--heading{
+            text-align: center;
+            font-size: 4rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 700;
+            color: #82191E;
+            padding-bottom: 3rem;
+            letter-spacing: 0.4rem;
+            max-width: 20ch;
+        }
+    
+        &--subHeading{
+            text-align: center;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 600;
+            font-size: 2rem;
+            padding-bottom: 3rem;
+            letter-spacing: 0.4rem;
+            max-width: 28ch;
+        }
+    
+        &--text{
+            text-align: center;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 400;
+            font-size: 1.8rem;
+            padding-bottom: 3rem;
+            letter-spacing: 0.2rem;
+            max-width: 42ch;
+        }
+    }
+}
+
+ 
+@media #{$tablet}{
+
+    .aboutPage__left{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-left: 8%;
+    
+        &--heading{
+            font-size: 3rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 700;
+            color: #82191E;
+            padding-bottom: 3rem;
+            letter-spacing: 0.4rem;
+            padding-top: 3rem;
+        }
+    
+        &--subHeading{
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 600;
+            font-size: 1.6rem;
+            padding-bottom: 3rem;
+            letter-spacing: 0.2rem;
+            max-width: 38ch;
+        }
+    
+        &--text{
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 400;
+            font-size: 1.4rem;
+            padding-bottom: 3rem;
+            letter-spacing: 0.2rem;
+            max-width: 44ch;
+        }
+    }
+
+    .aboutPage__right--img{
+        height: 65%;
+        padding: 2rem;
+        padding-right: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+@media #{$desktop}{
+}

@@ -1,0 +1,216 @@
+@import "var";
+
+.homePage-master{
+    width: 100%;
+    height: 97vh;
+
+    &__img{
+        height: 35px;
+    }
+
+    &__hamburg{
+        height: 35px;
+        margin-top: 1%;
+        margin-right: 3%;
+        display: none;
+    }
+
+    &__h1{
+        padding-top: 14%;
+        padding-left: 10%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: white;
+        font-size: 6.8rem;
+        letter-spacing: 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+    }
+
+    &__p{
+        padding-top: 4.5rem;
+        padding-left: 10%;
+        padding-bottom: 0.5%;
+        color: white;
+        font-size: 2.5rem;
+        letter-spacing: 0.3rem;
+        width: 75ch;
+        opacity: 100%;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    &__quote{
+        list-style-position:inside;
+        border: 2px solid white;
+        margin-left: 3rem;
+        letter-spacing: 0.2rem;
+        font-size: 18px;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    &__active{
+        color: #CF2730;
+    }
+
+    &__hr{
+        color: white;
+        margin-top: 5px;
+    }
+
+    &__started{
+        list-style-position:inside;
+        border: 2px solid white;
+        padding: 1.5rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        margin-left: 10%;
+        color: white;
+        font-size: 1.8rem;
+        margin-top: 5rem;
+        letter-spacing: 0.4rem;
+        background: none;
+        cursor: pointer;
+    }
+
+    &__nav li:hover{
+        opacity: 70%;
+    }
+
+    &__quote:hover{
+        opacity: 100%;
+    }
+}
+
+.homePage-container{
+    height: 100%;
+    width: 100%;
+    background: url(../img/landing.jpg);
+    background-color: lightslategrey;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 85%;
+}
+
+
+@media #{$mobile}{
+    
+    .homePage-master{
+        width: 100%;
+        height: 97vh;
+    
+        &__img{
+            height: 35px;
+            padding-left: 2%;
+        }
+
+        &__hamburg{
+            display: block;
+        }
+
+        &__h1{
+            text-align: center;
+            padding-top: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 3.8rem;
+            letter-spacing: 0.4rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 700;
+            padding-left: 0%;
+        }
+    
+        &__p{
+            display: none;
+        }
+
+        &__started{
+            list-style-position:inside;
+            border: 2px solid white;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            padding-right: 1.5rem;
+            padding-left: 1.5rem;
+            margin-left: 24%;
+            color: white;
+            font-size: 1.8rem;
+            margin-top: 10rem;
+            letter-spacing: 0.4rem;
+            background: none;
+            cursor: pointer;
+        }
+    }          
+}
+
+ 
+@media #{$tablet}{
+
+    .homePage-master{
+        width: 100%;
+        height: 97vh;
+    
+        &__img{
+            height: 25px;
+        }
+
+        &__quote{
+            list-style-position:inside;
+            border: 2px solid white;
+            margin-left: 3rem;
+            letter-spacing: 0.2rem;
+            font-size: 14px;
+            font-family: 'Work Sans', sans-serif;
+            margin-top: 10px;
+            padding: 15px;
+        }
+
+        &__h1{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 4.5rem;
+            letter-spacing: 1rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+            margin-top: 25%;
+        }
+
+        &__p{
+            display: none;
+        }
+
+        &__started{
+            border: 2px solid white;
+            padding: 3rem;
+            margin-left: 35%;
+            font-size: 1.8rem;
+            margin-top: 15%;
+            letter-spacing: 0.4rem;
+            background: none;
+            cursor: pointer;
+        }
+    }
+}
+
+@media #{$index}{
+
+    .homePage-master{
+
+        &__p{
+            max-width: 60ch;
+        }
+    }
+}
+
+
+@media #{$desktop}{
+}

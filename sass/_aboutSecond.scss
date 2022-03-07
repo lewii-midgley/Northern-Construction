@@ -1,0 +1,293 @@
+@import "var";
+
+
+.aboutPageSecondMobileHeader-master{
+    width: 100vw;
+    height: 12.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.aboutPageSecondMobileHeader-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    &--heading{
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        color: #82191E;
+        padding-bottom: 3rem;
+        letter-spacing: 0.4rem;
+    }
+}
+
+.aboutPageSecondMobileContact-master{
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.aboutPageSecondMobileContact-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    &__button{
+        cursor: pointer;
+        letter-spacing: 0.2rem;
+        border-style: solid;
+        color: black;
+        background: white;
+        padding: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin-bottom: 15%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.4rem;
+        
+    }
+
+    &__p{
+        text-align: center;
+        color: black;
+        font-size: 1.6rem;
+        letter-spacing: 0.1rem;
+        padding-bottom: 10px;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    &__h1{
+        text-align: center;
+        color: black;
+        font-size: 2.4rem;
+        letter-spacing: 0.2rem;
+        font-weight: normal;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    &__bottom{
+        margin-top: 2.5%;
+    }
+}
+
+
+
+.aboutPageSecond-master{
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutPageSecond-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutPageSecond__left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutPageSecond__left--img{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutPageSecond__right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    &--heading{
+        font-size: 4rem;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        color: #82191E;
+        padding-bottom: 3rem;
+        letter-spacing: 0.4rem;
+    }
+
+    &--subHeading{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.7rem;
+        padding-bottom: 3rem;
+        letter-spacing: 0.2rem;
+        max-width: 40ch;
+    }
+
+    &--text{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+        padding-bottom: 3rem;
+        letter-spacing: 0.2rem;
+        max-width: 56ch;
+    }
+
+    &--h3{
+        font-size: 1.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: normal;
+        padding-bottom: 1.5rem;
+        letter-spacing: 0.1rem;
+    }
+
+    &--iconRow{
+        display: flex;
+        padding-left: 22px;
+    }
+
+    &--icons{
+        height: 25px;
+        padding-right: 22px;
+    }
+}
+
+
+
+
+@media #{$mobile}{
+    
+    .aboutPageSecondMobileContact-master{
+        display: block;
+    }
+
+    .aboutPageSecondMobileHeader-master{
+        display: block;
+    }
+
+    .aboutPageSecond-master{
+        width: 100vw;
+        height: 60vh;
+        flex-wrap: wrap;
+    }
+    
+    .aboutPageSecond-container{
+        flex-wrap: wrap;
+    }
+    
+    .aboutPageSecond__left{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .aboutPageSecond__right{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &--heading{
+            display: none;
+        }
+    
+        &--subHeading{
+            text-align: center;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 600;
+            font-size: 1.8rem;
+            padding-bottom: 3rem;
+            letter-spacing: 0.2rem;
+            max-width: 42ch;
+        }
+    
+        &--text{
+            text-align: center;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 400;
+            font-size: 1.5rem;
+            padding-bottom: 3rem;
+            letter-spacing: 0.2rem;
+            max-width: 52ch;
+        }
+    
+        &--h3{
+            display: none;
+
+        }
+
+        &--iconRow{
+            display: none;
+        }
+    }
+}
+
+ 
+@media #{$tablet}{
+
+    .aboutPageSecond__left{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutPageSecond__right{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top: 0.5%;
+    
+        &--heading{
+            font-size: 2.5rem;
+        }
+
+        &--subHeading{
+            font-size: 1.4rem;
+        }
+
+        &--text{
+            font-size: 1.2rem;
+            max-width: 50ch;
+        }
+
+        &--h3{
+            font-size: 1.4rem;
+        }
+
+        &--icons{
+            height: 20px;
+        }
+    }
+}
+
+
+@media #{$desktop}{
+}
