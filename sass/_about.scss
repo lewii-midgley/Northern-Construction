@@ -1,16 +1,8 @@
 @import "var";
 
-.aboutPage-master{
-    width: 100vw;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .aboutPage-container{
-    height: 100%;
-    width: 100%;
+    width: 100vw;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +16,15 @@
     align-items: center;
 }
 
+.aboutPage__right--img{
+    height: 80%;
+    padding: 2rem;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .aboutPage__left{
     width: 50%;
     height: 100%;
@@ -31,45 +32,39 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    padding-left: 15%;
+    padding-left: 10%;
 
     &--heading{
-        font-size: 5rem;
+        font-size: 3.4rem;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 700;
         color: #82191E;
-        padding-bottom: 3rem;
         letter-spacing: 0.4rem;
+        padding-bottom: 2.8rem;
+        max-width: 30ch;
+
     }
 
     &--subHeading{
         font-family: 'Work Sans', sans-serif;
         font-weight: 600;
         font-size: 2rem;
-        padding-bottom: 3rem;
         letter-spacing: 0.2rem;
         max-width: 42ch;
+        padding-bottom: 2.8rem;
     }
 
     &--text{
         font-family: 'Work Sans', sans-serif;
         font-weight: 400;
         font-size: 1.5rem;
-        padding-bottom: 3rem;
-        letter-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
         max-width: 60ch;
     }
 }
 
 
-.aboutPage__right--img{
-    height: 80%;
-    padding: 2rem;
-    padding-right: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 
@@ -197,7 +192,3 @@
     }
 }
 
-
-
-@media #{$desktop}{
-}

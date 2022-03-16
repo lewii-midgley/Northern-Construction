@@ -1,111 +1,97 @@
 @import "var";
 
 
-.servicePage-master{
-    width: 100%;
-    height: 100vh;
-}
-
 .servicePage-container{
-    height: 100%;
-    width: 100%;
+    height: 95vh;
+    width: 100vw;
     display: flex;
-    flex-direction: column;
     background: url(../img/pratt-city-ala-september-13-2011-a-crane-lifts-the-trusses-for-frank-hardys-4ef4f4-1600.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
-    &__tabletBackground{
-        display: none;
-        height: 20vh;
-        background: #212123;
-        margin-top: 12px;
+    &--left{
+        height: 100%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
 
-        &--p{
-            color: white;
+        &__ul{
+            padding-top: 2rem;
+        }
+
+        &__ul--li1{
             text-align: center;
-            font-size: 1.6rem;
-            margin-left: 10%;
-            margin-right: 10%;
-            letter-spacing: 0.3rem;
-            margin-top: 5%;
+            width: 350px;
+            background: #82191E;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 8%;
+            letter-spacing: 0.2rem;
+            font-family: 'Work Sans', sans-serif;
+        }
+
+        &__ul--li{
+            text-align: center;
+            width: 350px;
+            background: #212123;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 8%;
+            letter-spacing: 0.2rem;
             font-family: 'Work Sans', sans-serif;
         }
     }
 
     hr{
-        margin-left: 50px;
-        width: 65%;
+        margin-left: 7rem;
+        width: 50%;
     }
 
-    &__ul{
-        padding-top: 5%;
-    }
-
-    &__ul--li1{
-        text-align: center;
-        width: 350px;
-        background: #82191E;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 8%;
-        letter-spacing: 0.2rem;
-        font-family: 'Work Sans', sans-serif;
-    }
-
-    &__ul--li{
-        text-align: center;
-        width: 350px;
-        background: #212123;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 8%;
-        letter-spacing: 0.2rem;
-        font-family: 'Work Sans', sans-serif;
-    }
-
-    &__h1Container{
-        height: 10%;
-        width: 40%;
+    &--right{
+        height: 100%;
+        width: 60%;
         display: flex;
         justify-content: flex-end;
-        align-items: center;
-        background: #82191E;
-        margin-left: 55%;
-        margin-top: 4%;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-bottom: 6rem;
 
-        // height: 8%;
-        
-
-        &--h1{
-            color: white;
-            font-size: 4.5rem;
-            letter-spacing: 0.6rem;
-            padding-right: 2%;
-            font-family: 'Josefin Sans', sans-serif;
-            padding-top: 5px;
+        &__h1Container{
+            height: 7rem;
+            width: 80%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            background: #82191E;
+            margin-left: 8.2rem;
+    
+            &--h1{
+                color: white;
+                font-size: 2.7rem;
+                letter-spacing: 0.6rem;
+                padding: 2%;
+                font-family: 'Josefin Sans', sans-serif;
+            }
         }
-    }
 
-    &__pContainer{
-        height: 15%;
-        width: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #212123;
-        margin-left: 65%;
-        margin-top: 2%;
-        
-
-        &--p{
-            color: white;
-            font-size: 1.5rem;
-            letter-spacing: 0.3rem;
-            text-align: right;
-            padding: 2%;
-            font-family: 'Work Sans', sans-serif;
+        &__pContainer{
+            height: 10rem;
+            width: 80%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            background: #212123;
+            margin-left: 8.2rem;
+            
+            &--p{
+                color: white;
+                font-size: 1.4rem;
+                letter-spacing: 0.3rem;
+                text-align: right;
+                padding: 2%;
+                font-family: 'Work Sans', sans-serif;
+            }
         }
     }
 }
@@ -252,12 +238,5 @@
             display: none;
         }
     }
-}
-
-        
-
-@media #{$desktop}{
-
-}
-    
+}  
     

@@ -1,101 +1,8 @@
 @import "var";
 
-
-.aboutPageSecondMobileHeader-master{
-    width: 100vw;
-    height: 12.5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
-}
-
-.aboutPageSecondMobileHeader-container{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-
-    &--heading{
-        text-align: center;
-        font-size: 3rem;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 700;
-        color: #82191E;
-        padding-bottom: 3rem;
-        letter-spacing: 0.4rem;
-    }
-}
-
-.aboutPageSecondMobileContact-master{
-    width: 100vw;
-    height: 25vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
-}
-
-.aboutPageSecondMobileContact-container{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-
-    &__button{
-        cursor: pointer;
-        letter-spacing: 0.2rem;
-        border-style: solid;
-        color: black;
-        background: white;
-        padding: 2rem;
-        padding-left: 4rem;
-        padding-right: 4rem;
-        margin-bottom: 15%;
-        font-family: 'Josefin Sans', sans-serif;
-        font-size: 1.4rem;
-        
-    }
-
-    &__p{
-        text-align: center;
-        color: black;
-        font-size: 1.6rem;
-        letter-spacing: 0.1rem;
-        padding-bottom: 10px;
-        font-family: 'Work Sans', sans-serif;
-    }
-
-    &__h1{
-        text-align: center;
-        color: black;
-        font-size: 2.4rem;
-        letter-spacing: 0.2rem;
-        font-weight: normal;
-        font-family: 'Work Sans', sans-serif;
-    }
-
-    &__bottom{
-        margin-top: 2.5%;
-    }
-}
-
-
-
-.aboutPageSecond-master{
-    width: 100vw;
-    height: 45vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .aboutPageSecond-container{
-    height: 100%;
-    width: 100%;
+    height: 55vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,6 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid pink;
 }
 
 .aboutPageSecond__left--img{
@@ -123,30 +31,32 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    border: 2px solid pink;
+    padding-left: 1rem;
 
     &--heading{
-        font-size: 4rem;
+        font-size: 3.4rem;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 700;
         color: #82191E;
-        padding-bottom: 3rem;
+        padding-bottom: 2.8rem;
         letter-spacing: 0.4rem;
     }
 
     &--subHeading{
         font-family: 'Work Sans', sans-serif;
         font-weight: 600;
-        font-size: 1.7rem;
-        padding-bottom: 3rem;
+        font-size: 1.8rem;
         letter-spacing: 0.2rem;
-        max-width: 40ch;
+        max-width: 42ch;
+        padding-bottom: 2.8rem;
     }
 
     &--text{
         font-family: 'Work Sans', sans-serif;
         font-weight: 400;
-        font-size: 1.2rem;
-        padding-bottom: 3rem;
+        font-size: 1.5rem;
+        padding-bottom: 2.8rem;
         letter-spacing: 0.2rem;
         max-width: 56ch;
     }
@@ -286,8 +196,4 @@
             height: 20px;
         }
     }
-}
-
-
-@media #{$desktop}{
 }
