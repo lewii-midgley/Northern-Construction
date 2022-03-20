@@ -2,8 +2,8 @@
 
 
 .header{
-    width: 100%;
     height: 4vh;
+    width: 100vw;
     background: white;
     display: flex;
     justify-content: flex-end;
@@ -50,7 +50,10 @@
 }
 
 
-nav{
+
+// Navigation
+
+.navBar{
     height: 15vh;
     width: 100vw;
     display: flex;
@@ -60,12 +63,12 @@ nav{
     padding-right: 4%;
 }
 
-nav ul{
+.navBar--ul{
     list-style-type: none;
     display: flex;
 }
 
-ul li{
+.navBar--li{
     padding: 20px;
     padding-left: 25px;
     padding-right: 25px;
@@ -75,85 +78,35 @@ ul li{
     font-weight: bold;
 }
 
+.navBar--projects{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 6%;
+    padding-right: 4%;
+    background: url(../img/8209158541_4a6fa1d66b_b.jpg);
+    background-color: darkgrey;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 80%;
+}
+
 
 
 
 @media #{$mobile}{   
 
-    nav{
-    }
-    
-    nav ul{
-        display: none;
-    }
-    
-    ul li{
-        padding: 20px;
-        padding-left: 25px;
-        padding-right: 25px;
-        color: white;
-        font-size: 18px;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: bold;
-    }
-
-    .header{
-        width: 100%;
-        height: 3vh;
-        background: white;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding:0;
-    
-        &__items{
-        display: flex;
-        padding-right: 5rem;
-    
-        &--img{
-            height: 1.8rem;
-            margin-top: 0.7rem;
-        }
-        
-        &--p{
-        padding: 1rem;
-        letter-spacing: 0.2rem;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 400;
-        color: #545454;
-        }
-    }
-    
-       &__items2{
-        display: flex;
-        padding-right: 2rem;
-    
-    
-        &--img{
-            height: 1.8rem;
-            margin-top: 0.7rem;
-        }
-        
-        &--p{
-        padding: 1rem;
-        letter-spacing: 0.2rem;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 400;
-        color: #545454;
-        }
-       }
-    }
  }
 
   
-@media #{$tablet}{   
-    ul li{
-        padding: 30px;
-        padding-left: 20px;
-        padding-right: 20px;
-        color: white;
-        font-size: 14px;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: bold;
+@media #{$tablet}{  
+    
+    .navBar--ul{
+        display: none;
     }
+
 }
