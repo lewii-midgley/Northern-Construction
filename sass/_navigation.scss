@@ -98,7 +98,11 @@
 
 
 
-@media #{$mobile}{   
+@media #{$mobile}{
+
+    .navBar--ul{
+        display: none;
+    }
 
  }
 

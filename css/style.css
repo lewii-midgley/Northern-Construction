@@ -227,6 +227,9 @@ ul {
   background-position: center;
   opacity: 80%; }
 
+@media (max-width: 600px) {
+  .navBar--ul {
+    display: none; } }
 @media (min-width: 601px) and (max-width: 1023px) {
   .navBar--ul {
     display: none; } }
@@ -582,7 +585,7 @@ ul {
   .credentials-container {
     display: none; } }
 .footer-container {
-  height: 30vh;
+  height: 25vh;
   width: 100vw;
   display: flex;
   justify-content: space-around;
@@ -687,8 +690,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  border: 2px solid pink; }
+  flex-direction: column; }
   .contact-heading--h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
@@ -702,34 +704,33 @@ ul {
     margin-top: 1.5%; }
 
 .contact-container {
-  height: 80%;
-  width: 100%;
-  display: flex; }
-  .contact-container__heading {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 8rem; }
   .contact-container__left {
     width: 50%;
     height: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    padding-left: 20%;
-    margin-top: 2%; }
+    padding-left: 20%; }
     .contact-container__left--heading {
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold;
-      font-size: 3rem;
+      font-size: 2.8rem;
       letter-spacing: 0.4rem;
-      padding-top: 8px; }
+      padding-top: 0.9rem; }
     .contact-container__left--subHeading {
       font-family: 'work Sans', sans-serif;
       font-weight: 500;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       letter-spacing: 0.15rem;
-      padding-left: 64px; }
+      padding-left: 6.2rem; }
   .contact-container__leftMobile {
     padding-top: 10%;
     margin-bottom: 7%; }
@@ -755,19 +756,22 @@ ul {
     width: 50%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column; }
     .contact-container__right--formContainer {
       height: 100%;
-      width: 80%;
-      margin-left: 20%;
-      padding-top: 8%; }
+      width: 50vw;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      padding-left: 20%; }
       .contact-container__right--formContainer label {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         font-family: 'Work Sans', sans-serif;
         font-weight: bold;
-        margin-bottom: 10px; }
+        letter-spacing: 0.1rem; }
       .contact-container__right--formContainer input[type=text], .contact-container__right--formContainer select, .contact-container__right--formContainer textarea {
         display: flex;
         justify-content: center;
@@ -796,138 +800,46 @@ ul {
         padding-left: 40px;
         margin-left: 40px; }
 
-@media (max-width: 600px) {
-  .navBar-master {
-    width: 100%;
-    height: 12vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-    .navBar-master__quote {
-      display: none; }
-    .navBar-master__img {
-      height: 35px;
-      padding-left: 2%; }
-    .navBar-master__hamburg {
-      display: block; }
-    .navBar-master__hr {
-      display: none; }
-    .navBar-master__li {
-      display: none; }
-    .navBar-master__liActive {
-      display: none; }
-
-  .contact-container {
-    height: 80%;
-    width: 100%;
-    display: flex;
-    flex-direction: column-reverse; }
-    .contact-container__heading {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-    .contact-container__left {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-start;
-      flex-direction: column;
-      padding-left: 18%;
-      margin-bottom: 10%;
-      margin-top: 0; }
-      .contact-container__left--subHeading {
-        font-family: 'work Sans', sans-serif;
-        font-weight: 500;
-        font-size: 1.6rem;
-        letter-spacing: 0.15rem;
-        padding-left: 64px; }
-    .contact-container__right {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-      flex-direction: column;
-      margin-bottom: 27%; }
-      .contact-container__right--formContainer {
-        height: 100%;
-        width: 100%;
-        margin-left: 20%;
-        padding-top: 8%; } }
 @media (min-width: 601px) and (max-width: 1023px) {
-  .navBar-master {
-    width: 100%;
-    height: 12vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-    .navBar-master__quote {
-      list-style-position: inside;
-      border: 2px solid white;
-      margin-left: 3rem;
-      letter-spacing: 0.2rem;
-      font-size: 14px;
-      font-family: 'Work Sans', sans-serif;
-      margin-top: 10px;
-      padding: 15px; }
-    .navBar-master__img {
-      height: 25px; }
-    .navBar-master__hr {
-      color: white;
-      margin-top: 5px; }
-    .navBar-master__li {
-      padding: 30px;
-      padding-left: 20px;
-      padding-right: 20px;
-      color: white;
-      font-size: 14px;
-      font-family: 'Work Sans', sans-serif;
-      font-weight: bold; }
-    .navBar-master__liActive {
-      padding: 30px;
-      padding-left: 20px;
-      padding-right: 20px;
-      color: #CF2730;
-      font-size: 14px;
-      font-family: 'Work Sans', sans-serif;
-      font-weight: bold; }
-
   .contact-container {
-    height: 80%;
-    width: 100%;
+    height: 150vh;
     display: flex;
-    flex-direction: column-reverse; }
-    .contact-container__heading {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap-reverse;
+    margin-top: 0rem;
+    margin-bottom: 5rem; }
     .contact-container__left {
       width: 100%;
-      height: 100%;
+      height: 50%;
       display: flex;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: flex-start;
       flex-direction: column;
       padding-left: 20%;
-      padding-top: 34px;
-      padding-bottom: 40px; }
+      margin-top: 2rem; }
     .contact-container__right {
       width: 100%;
-      height: 100%;
+      height: 50%;
       display: flex;
       justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding-bottom: 20px; } }
+      align-items: flex-start;
+      flex-direction: column; }
+      .contact-container__right--formContainer {
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-left: 20%; } }
 .project-heading {
   height: 20vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  border: 2px solid pink; }
+  flex-direction: column; }
   .project-heading--h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
@@ -941,340 +853,250 @@ ul {
     margin-top: 1.5%; }
 
 .project-container {
-  height: 30vh;
-  width: 100%;
+  height: 35vh;
+  width: 100vw;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
-  padding-top: 40px;
-  border: 2px solid blue; }
+  padding-left: 7%;
+  padding-right: 7%; }
   .project-container__left {
-    width: 30%;
+    width: 35%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: flex-start;
     flex-direction: column;
     background: url(../img/house3.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 15%;
-    margin-right: 5%; }
+    background-position: center; }
     .project-container__left--box {
-      height: 25%;
+      height: 27%;
+      width: 85%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
       background: #838383;
-      margin-left: 2rem;
-      margin-top: 30%;
-      color: white; }
+      color: white;
+      margin-bottom: 2rem;
+      padding-left: 1rem; }
       .project-container__left--box a {
         color: white; }
     .project-container__left--h1 {
-      padding: 2%;
-      padding-bottom: 3%;
+      font-size: 2rem;
       letter-spacing: 0.2rem;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold;
-      padding-top: 3%; }
+      padding-bottom: 1rem; }
     .project-container__left--p {
-      padding-left: 2%;
+      font-size: 1.2rem;
       letter-spacing: 0.1rem;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold; }
   .project-container__right {
-    width: 30%;
+    width: 35%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: flex-start;
     flex-direction: column;
     background: url(../img/house5.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 5%;
-    margin-right: 15%; }
+    background-position: center; }
     .project-container__right--box {
-      height: 25%;
+      height: 27%;
+      width: 85%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
       background: #838383;
-      margin-left: 2rem;
-      margin-top: 30%;
-      color: white; }
+      color: white;
+      margin-bottom: 2rem;
+      padding-left: 1rem; }
     .project-container__right--h1 {
-      padding: 2%;
-      padding-bottom: 3%;
+      font-size: 2rem;
       letter-spacing: 0.2rem;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold;
-      padding-top: 3%; }
+      padding-bottom: 1rem; }
     .project-container__right--p {
-      padding-left: 2%;
+      font-size: 1.2rem;
       letter-spacing: 0.1rem;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold; }
 
 .project-container2 {
-  height: 30vh;
-  width: 100%;
+  height: 35vh;
+  width: 100vw;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
-  padding-top: 40px; }
+  padding-left: 7%;
+  padding-right: 7%;
+  margin-top: 4rem; }
   .project-container2__left2 {
-    width: 30%;
+    width: 35%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: flex-start;
     flex-direction: column;
     background: url(../img/house1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 15%;
-    margin-right: 5%; }
+    background-position: center; }
     .project-container2__left2--box {
-      height: 25%;
+      height: 27%;
+      width: 85%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
       background: #838383;
-      margin-left: 2rem;
-      margin-top: 30%;
-      color: white; }
+      color: white;
+      margin-bottom: 2rem;
+      padding-left: 1rem; }
     .project-container2__left2--h1 {
-      padding: 3%;
-      padding-bottom: 3%;
+      font-size: 2rem;
       letter-spacing: 0.2rem;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold;
-      padding-top: 3%; }
+      padding-bottom: 1rem; }
     .project-container2__left2--p {
-      padding-left: 3%;
+      font-size: 1.2rem;
       letter-spacing: 0.1rem;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold; }
   .project-container2__right2 {
-    width: 30%;
+    width: 35%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: flex-start;
     flex-direction: column;
     background: url(../img/house4.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 5%;
-    margin-right: 15%; }
+    background-position: center; }
     .project-container2__right2--box {
-      height: 25%;
+      height: 27%;
+      width: 85%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
       background: #838383;
-      margin-left: 2rem;
-      margin-top: 30%;
-      color: white; }
+      color: white;
+      margin-bottom: 2rem;
+      padding-left: 1rem; }
     .project-container2__right2--h1 {
-      padding: 2%;
-      padding-bottom: 3%;
+      font-size: 2rem;
       letter-spacing: 0.2rem;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold;
-      padding-top: 3%; }
+      padding-bottom: 1rem; }
     .project-container2__right2--p {
-      padding-left: 2%;
+      font-size: 1.2rem;
       letter-spacing: 0.1rem;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold; }
 
 .project-container3 {
-  height: 30vh;
-  width: 100%;
+  height: 35vh;
+  width: 100vw;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
-  padding-top: 40px; }
+  padding-left: 7%;
+  padding-right: 7%;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
   .project-container3__left3 {
-    width: 30%;
+    width: 35%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: flex-start;
     flex-direction: column;
     background: url(../img/house2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 15%;
-    margin-right: 5%; }
+    background-position: center; }
     .project-container3__left3--box {
-      height: 25%;
+      height: 27%;
+      width: 85%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
       background: #838383;
-      margin-left: 2rem;
-      margin-top: 30%;
-      color: white; }
+      color: white;
+      margin-bottom: 2rem;
+      padding-left: 1rem; }
     .project-container3__left3--h1 {
-      padding: 2%;
-      padding-bottom: 3%;
+      font-size: 2rem;
       letter-spacing: 0.2rem;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold;
-      padding-top: 3%; }
+      padding-bottom: 1rem; }
     .project-container3__left3--p {
-      padding-left: 2%;
+      font-size: 1.2rem;
       letter-spacing: 0.1rem;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold; }
   .project-container3__right3 {
-    width: 30%;
+    width: 35%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: flex-start;
     flex-direction: column;
     background: url(../img/newhouseaddition.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 5%;
-    margin-right: 15%; }
+    background-position: center; }
     .project-container3__right3--box {
-      height: 25%;
+      height: 27%;
+      width: 85%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
       background: #838383;
-      margin-left: 2rem;
-      margin-top: 30%;
-      color: white; }
+      color: white;
+      margin-bottom: 2rem;
+      padding-left: 1rem; }
     .project-container3__right3--h1 {
-      padding: 2%;
-      padding-bottom: 3%;
+      font-size: 2rem;
       letter-spacing: 0.2rem;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold;
-      padding-top: 3%; }
+      padding-bottom: 1rem; }
     .project-container3__right3--p {
-      padding-left: 2%;
+      font-size: 1.2rem;
       letter-spacing: 0.1rem;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold; }
 
-@media (max-width: 600px) {
-  .project-master {
-    width: 100%;
-    min-height: 200vh; }
-
-  .project-container {
-    height: 30vh;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 40px; }
-    .project-container__left {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      flex-direction: column;
-      margin: 0;
-      padding: 0;
-      margin-bottom: 5%; }
-    .project-container__right {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      flex-direction: column;
-      margin: 0;
-      padding: 0;
-      margin-bottom: 100%; }
-
-  .project-container2 {
-    height: 30vh;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 40px;
-    margin-top: 285px; }
-    .project-container2__left2 {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      flex-direction: column;
-      margin: 0;
-      padding: 0;
-      margin-bottom: 5%; }
-    .project-container2__right2 {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      flex-direction: column;
-      margin: 0;
-      padding: 0; }
-
-  .project-container3 {
-    height: 30vh;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 40px;
-    margin-top: 285px; }
-    .project-container3__left3 {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      flex-direction: column;
-      margin: 0;
-      padding: 0;
-      margin-bottom: 5%; }
-    .project-container3__right3 {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      flex-direction: column;
-      margin: 0;
-      padding: 0; } }
-@media (min-width: 601px) and (max-width: 1023px) {
-  .project-heading {
-    margin-top: 2.5%; }
-    .project-heading--h1 {
-      font-family: 'Josefin Sans', sans-serif;
-      font-weight: bold;
-      font-size: 4rem;
-      letter-spacing: 0.6rem; }
-
-  .project-container__left--box {
-    margin-left: 0rem;
-    margin-top: 54%; }
-  .project-container__right--box {
-    margin-left: 0rem;
-    margin-top: 54%; }
-
-  .project-container2__left2--box {
-    margin-left: 0rem;
-    margin-top: 54%; }
-  .project-container2__right2--box {
-    margin-left: 0rem;
-    margin-top: 54%; }
-
-  .project-container3__left3--box {
-    margin-left: 0rem;
-    margin-top: 54%; }
-  .project-container3__right3--box {
-    margin-left: 0rem;
-    margin-top: 54%; } }
 .projectAddOn-master {
   width: 100%;
   height: 140vh; }
 
 .projectAddOn-heading {
+  height: 20vh;
   width: 100%;
-  height: 17.4vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  border: 2px solid pink; }
   .projectAddOn-heading--h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
@@ -1288,71 +1110,44 @@ ul {
     margin-top: 1.5%; }
 
 .projectAddOn-container {
-  height: 30vh;
-  width: 100%;
+  height: 90vh;
+  width: 100vw;
   display: flex;
-  padding-top: 40px; }
+  border: 2px solid green;
+  margin-bottom: 4rem; }
   .projectAddOn-container__left {
-    width: 30%;
     height: 100%;
+    width: 50%;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: column;
-    background: url(../img/house3.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 15%;
-    margin-right: 5%; }
-  .projectAddOn-container__left2 {
-    margin-top: 5%;
-    width: 30%;
-    height: 20%;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-direction: column;
-    background: url(../img/inside.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 15%;
-    margin-right: 5%; }
-  .projectAddOn-container__left3 {
-    margin-top: 5%;
-    width: 30%;
-    height: 20%;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-direction: column;
-    background: url(../img/kitchen.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 15%;
-    margin-right: 5%; }
+    border: 2px solid gold; }
+    .projectAddOn-container__left--img {
+      height: 20rem; }
   .projectAddOn-container__right {
-    position: fixed;
-    left: 60%;
-    top: 40%;
-    width: 30%;
-    height: 100%; }
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 2px solid orange;
+    padding-left: 8rem; }
     .projectAddOn-container__right--h1 {
-      padding: 2rem;
       font-family: 'Work Sans', sans-serif;
       font-weight: 700;
-      font-size: 2rem;
+      font-size: 2.8rem;
       letter-spacing: 0.2rem; }
     .projectAddOn-container__right--p {
-      padding: 2rem;
+      max-width: 80ch;
       font-family: 'Work Sans', sans-serif;
       font-weight: 500;
-      font-size: 1.8rem;
-      letter-spacing: 0.2rem; }
+      font-size: 1rem;
+      letter-spacing: 0.2rem;
+      padding-top: 2rem;
+      padding-bottom: 4rem; }
     .projectAddOn-container__right--button {
-      margin: 2rem;
       padding: 1rem;
       font-family: 'Work Sans', sans-serif;
       font-weight: 500;
@@ -1361,39 +1156,6 @@ ul {
       background: white;
       border-radius: 5%;
       cursor: pointer; }
-
-.projectAddOn-container__mobile {
-  height: 30vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: none; }
-  .projectAddOn-container__mobile--h1 {
-    margin-top: 10%;
-    text-align: center;
-    padding: 2rem;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-    letter-spacing: 0.2rem; }
-  .projectAddOn-container__mobile--p {
-    text-align: center;
-    padding: 2rem;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 500;
-    font-size: 1.8rem;
-    letter-spacing: 0.2rem; }
-  .projectAddOn-container__mobile--button {
-    margin: 2rem;
-    padding: 1rem;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 500;
-    font-size: 1.4rem;
-    letter-spacing: 0.2rem;
-    background: white;
-    border-radius: 5%;
-    cursor: pointer; }
 
 @media (max-width: 600px) {
   .projectAddOn-container__mobile {
