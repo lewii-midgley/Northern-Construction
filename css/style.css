@@ -484,85 +484,61 @@ ul {
     height: 25px;
     padding-right: 22px; }
 
-@media (max-width: 600px) {
-  .aboutPageSecondMobileContact-master {
-    display: block; }
-
-  .aboutPageSecondMobileHeader-master {
-    display: block; }
-
-  .aboutPageSecond-master {
-    width: 100vw;
-    height: 60vh;
-    flex-wrap: wrap; }
-
+@media (min-width: 601px) and (max-width: 1023px) {
   .aboutPageSecond-container {
-    flex-wrap: wrap; }
-
-  .aboutPageSecond__left {
-    width: 100%;
-    height: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-
-  .aboutPageSecond__right {
-    width: 100%;
-    height: 30%;
+    height: 45vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; }
+    background: url(../img/background.jpeg);
+    background-color: #2c2d2e;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 90%; }
+
+  .aboutPageSecond__left {
+    display: none; }
+
+  .aboutPageSecond__right {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0rem; }
     .aboutPageSecond__right--heading {
-      display: none; }
+      font-size: 3.4rem;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 700;
+      color: #CF2730;
+      padding-bottom: 2.8rem;
+      letter-spacing: 0.4rem; }
     .aboutPageSecond__right--subHeading {
-      text-align: center;
       font-family: 'Work Sans', sans-serif;
       font-weight: 600;
       font-size: 1.8rem;
-      padding-bottom: 3rem;
       letter-spacing: 0.2rem;
-      max-width: 42ch; }
+      max-width: 50ch;
+      padding-bottom: 2.8rem;
+      color: white;
+      text-align: center; }
     .aboutPageSecond__right--text {
-      text-align: center;
       font-family: 'Work Sans', sans-serif;
       font-weight: 400;
       font-size: 1.5rem;
-      padding-bottom: 3rem;
+      padding-bottom: 2.8rem;
       letter-spacing: 0.2rem;
-      max-width: 52ch; }
+      max-width: 56ch;
+      color: white;
+      text-align: center; }
     .aboutPageSecond__right--h3 {
       display: none; }
     .aboutPageSecond__right--iconRow {
       display: none; } }
-@media (min-width: 601px) and (max-width: 1023px) {
-  .aboutPageSecond__left {
-    width: 100%;
-    height: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-
-  .aboutPageSecond__right {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    margin-left: 5%;
-    margin-top: 0.5%; }
-    .aboutPageSecond__right--heading {
-      font-size: 2.5rem; }
-    .aboutPageSecond__right--subHeading {
-      font-size: 1.4rem; }
-    .aboutPageSecond__right--text {
-      font-size: 1.2rem;
-      max-width: 50ch; }
-    .aboutPageSecond__right--h3 {
-      font-size: 1.4rem; }
-    .aboutPageSecond__right--icons {
-      height: 20px; } }
 .credentials-container {
   width: 100%;
   height: 35vh;
@@ -816,7 +792,7 @@ ul {
       justify-content: center;
       align-items: flex-start;
       flex-direction: column;
-      padding-left: 20%;
+      padding-left: 23%;
       margin-top: 2rem; }
     .contact-container__right {
       width: 100%;
@@ -832,7 +808,7 @@ ul {
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
-        padding-left: 20%; } }
+        padding-left: 23%; } }
 .project-heading {
   height: 20vh;
   width: 100vw;
@@ -1085,6 +1061,60 @@ ul {
       font-family: 'Josefin Sans', sans-serif;
       font-weight: bold; }
 
+@media (min-width: 601px) and (max-width: 1023px) {
+  .project-container {
+    padding-left: 2%;
+    padding-right: 2%; }
+    .project-container__left {
+      width: 45%; }
+      .project-container__left--box {
+        width: 100%;
+        margin-bottom: 0rem; }
+      .project-container__left--h1 {
+        font-size: 1.8rem; }
+    .project-container__right {
+      width: 45%; }
+      .project-container__right--box {
+        width: 100%;
+        margin-bottom: 0rem; }
+      .project-container__right--h1 {
+        font-size: 1.8rem; }
+
+  .project-container2 {
+    padding-left: 2%;
+    padding-right: 2%; }
+    .project-container2__left2 {
+      width: 45%; }
+      .project-container2__left2--box {
+        width: 100%;
+        margin-bottom: 0rem; }
+      .project-container2__left2--h1 {
+        font-size: 1.8rem; }
+    .project-container2__right2 {
+      width: 45%; }
+      .project-container2__right2--box {
+        width: 100%;
+        margin-bottom: 0rem; }
+      .project-container2__right2--h1 {
+        font-size: 1.8rem; }
+
+  .project-container3 {
+    padding-left: 2%;
+    padding-right: 2%; }
+    .project-container3__left3 {
+      width: 45%; }
+      .project-container3__left3--box {
+        width: 100%;
+        margin-bottom: 0rem; }
+      .project-container3__left3--h1 {
+        font-size: 1.8rem; }
+    .project-container3__right3 {
+      width: 45%; }
+      .project-container3__right3--box {
+        width: 100%;
+        margin-bottom: 0rem; }
+      .project-container3__right3--h1 {
+        font-size: 1.8rem; } }
 .projectAddOn-master {
   width: 100%;
   height: 140vh; }
@@ -1095,8 +1125,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  border: 2px solid pink; }
+  flex-direction: column; }
   .projectAddOn-heading--h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
@@ -1113,7 +1142,6 @@ ul {
   height: 90vh;
   width: 100vw;
   display: flex;
-  border: 2px solid green;
   margin-bottom: 4rem; }
   .projectAddOn-container__left {
     height: 100%;
@@ -1121,19 +1149,15 @@ ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
-    border: 2px solid gold; }
+    flex-direction: column; }
     .projectAddOn-container__left--img {
       height: 20rem; }
   .projectAddOn-container__right {
-    height: 100%;
+    height: 68%;
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    border: 2px solid orange;
-    padding-left: 8rem; }
+    position: fixed;
+    margin-left: 55%;
+    padding-top: 4%; }
     .projectAddOn-container__right--h1 {
       font-family: 'Work Sans', sans-serif;
       font-weight: 700;
@@ -1156,86 +1180,5 @@ ul {
       background: white;
       border-radius: 5%;
       cursor: pointer; }
-
-@media (max-width: 600px) {
-  .projectAddOn-container__mobile {
-    display: block; }
-
-  .projectAddOn-master {
-    width: 100%;
-    height: 100vh; }
-
-  .projectAddOn-heading {
-    width: 100%;
-    height: 17.4vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; }
-    .projectAddOn-heading--h1 {
-      text-align: center;
-      font-family: 'Josefin Sans', sans-serif;
-      font-weight: bold;
-      font-size: 3rem;
-      letter-spacing: 0.6rem;
-      max-width: 24ch; }
-
-  .projectAddOn-container {
-    height: 30vh;
-    width: 100%;
-    display: flex;
-    padding-top: 0px; }
-    .projectAddOn-container__left {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      background: url(../img/house3.jpeg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      margin: 0;
-      padding: 0; }
-    .projectAddOn-container__left2 {
-      display: none; }
-    .projectAddOn-container__left3 {
-      display: none; }
-    .projectAddOn-container__right {
-      display: none; } }
-@media (min-width: 601px) and (max-width: 1023px) {
-  .projectAddOn-master {
-    width: 100%;
-    height: 110vh; }
-
-  .projectAddOn-heading {
-    width: 100%;
-    height: 17.4vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; }
-    .projectAddOn-heading--h1 {
-      text-align: center;
-      font-family: 'Josefin Sans', sans-serif;
-      font-weight: bold;
-      font-size: 3rem;
-      letter-spacing: 0.6rem; }
-    .projectAddOn-heading hr {
-      width: 8%;
-      height: 4px;
-      border: none;
-      background: black;
-      margin-top: 1.5%; }
-
-  .projectAddOn-container__right {
-    position: fixed;
-    left: 60%;
-    top: 40%;
-    width: 30%;
-    height: 100%; }
-    .projectAddOn-container__right--p {
-      font-size: 1.2rem; } }
 
 /*# sourceMappingURL=style.css.map */

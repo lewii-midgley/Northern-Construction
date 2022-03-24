@@ -326,6 +326,98 @@
  
 @media #{$tablet}{
 
+    .project-container{
+        padding-left: 2%;
+        padding-right: 2%;
+    
+        &__left{
+            width: 45%;
+    
+            &--box{
+                width: 100%;
+                margin-bottom: 0rem;
+            }
+    
+            &--h1{
+                font-size: 1.8rem;
+            }
+        }
+    
+        &__right{
+            width: 45%;
+    
+            &--box{
+                width: 100%;
+                margin-bottom: 0rem;
+            }
+    
+            &--h1{
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    .project-container2{
+        padding-left: 2%;
+        padding-right: 2%;
+    
+        &__left2{
+            width: 45%;
+    
+            &--box{
+                width: 100%;
+                margin-bottom: 0rem;
+            }
+    
+            &--h1{
+                font-size: 1.8rem;
+            }
+        }
+    
+        &__right2{
+            width: 45%;
+    
+            &--box{
+                width: 100%;
+                margin-bottom: 0rem;
+            }
+    
+            &--h1{
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    .project-container3{
+        padding-left: 2%;
+        padding-right: 2%;
+    
+        &__left3{
+            width: 45%;
+    
+            &--box{
+                width: 100%;
+                margin-bottom: 0rem;
+            }
+    
+            &--h1{
+                font-size: 1.8rem;
+            }
+        }
+    
+        &__right3{
+            width: 45%;
+    
+            &--box{
+                width: 100%;
+                margin-bottom: 0rem;
+            }
+    
+            &--h1{
+                font-size: 1.8rem;
+            }
+        }
+    }
 }
 
 

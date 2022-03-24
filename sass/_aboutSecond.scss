@@ -83,115 +83,88 @@
 
 @media #{$mobile}{
     
-    .aboutPageSecondMobileContact-master{
-        display: block;
-    }
-
-    .aboutPageSecondMobileHeader-master{
-        display: block;
-    }
-
-    .aboutPageSecond-master{
-        width: 100vw;
-        height: 60vh;
-        flex-wrap: wrap;
-    }
-    
-    .aboutPageSecond-container{
-        flex-wrap: wrap;
-    }
-    
-    .aboutPageSecond__left{
-        width: 100%;
-        height: 40%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .aboutPageSecond__right{
-        width: 100%;
-        height: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-        &--heading{
-            display: none;
-        }
-    
-        &--subHeading{
-            text-align: center;
-            font-family: 'Work Sans', sans-serif;
-            font-weight: 600;
-            font-size: 1.8rem;
-            padding-bottom: 3rem;
-            letter-spacing: 0.2rem;
-            max-width: 42ch;
-        }
-    
-        &--text{
-            text-align: center;
-            font-family: 'Work Sans', sans-serif;
-            font-weight: 400;
-            font-size: 1.5rem;
-            padding-bottom: 3rem;
-            letter-spacing: 0.2rem;
-            max-width: 52ch;
-        }
-    
-        &--h3{
-            display: none;
-
-        }
-
-        &--iconRow{
-            display: none;
-        }
-    }
 }
+
+
+
+
+
 
  
 @media #{$tablet}{
 
-    .aboutPageSecond__left{
-        width: 100%;
-        height: 40%;
+    .aboutPageSecond-container{
+        height: 45vh;
+        width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
+        background: url(../img/background.jpeg);
+        background-color: rgb(44, 45, 46);
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 90%;
     }
-
+    
+    .aboutPageSecond__left{
+        display: none;
+    }
+    
     .aboutPageSecond__right{
-        width: 100%;
         height: 100%;
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
-        margin-left: 5%;
-        margin-top: 0.5%;
+
+        width: 100%;
+        padding-left: 0rem;
     
         &--heading{
-            font-size: 2.5rem;
+            font-size: 3.4rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 700;
+            color: #CF2730;
+            
+            padding-bottom: 2.8rem;
+            letter-spacing: 0.4rem;
         }
-
+    
         &--subHeading{
-            font-size: 1.4rem;
-        }
-
-        &--text{
-            font-size: 1.2rem;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 600;
+            font-size: 1.8rem;
+            letter-spacing: 0.2rem;
             max-width: 50ch;
-        }
+            padding-bottom: 2.8rem;
 
+            color: white;
+            text-align: center;
+        }
+    
+        &--text{
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 400;
+            font-size: 1.5rem;
+            padding-bottom: 2.8rem;
+            letter-spacing: 0.2rem;
+            max-width: 56ch;
+
+            color: white;
+            text-align: center;
+        }
+    
         &--h3{
-            font-size: 1.4rem;
+            display: none;
         }
-
-        &--icons{
-            height: 20px;
+    
+        &--iconRow{
+            display: none;
         }
     }
+
+
+
 }
