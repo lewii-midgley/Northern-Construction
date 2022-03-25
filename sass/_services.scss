@@ -18,12 +18,12 @@
         padding-left: 4rem;
 
         &__ul{
-            padding-top: 2rem;
+            padding-top: 4rem;
         }
 
         &__ul--li1{
-            height: 4rem;
-            width: 40rem;
+            height: 5rem;
+            width: 37rem;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -34,12 +34,12 @@
             letter-spacing: 0.2rem;
             font-family: 'Work Sans', sans-serif;
             font-size: 1.4rem;
-            margin-bottom: 1rem;
+            margin-bottom: 0.6rem;
         }
 
         &__ul--li{
-            height: 4rem;
-            width: 40rem;
+            height: 5rem;
+            width: 37rem;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -50,7 +50,7 @@
             letter-spacing: 0.2rem;
             font-family: 'Work Sans', sans-serif;
             font-size: 1.4rem;
-            margin-bottom: 1rem;
+            margin-bottom: 0.6rem;
         }
     }
 
@@ -118,6 +118,109 @@
 
  
 @media #{$tablet}{
+
+    .servicePage-container{
+        height: 95vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-between;
+    
+        &--left{
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-left: 2rem;
+            padding-top: 2rem;
+    
+            &__ul{
+                padding-top: 0rem;
+            }
+    
+            &__ul--li1{
+                height: 4rem;
+                width: 30rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                color: white;
+                text-align: center;
+                background: #82191E;
+                letter-spacing: 0.2rem;
+                font-family: 'Work Sans', sans-serif;
+                font-size: 1.4rem;
+                margin-bottom: 0.6rem;
+            }
+    
+            &__ul--li{
+                height: 4rem;
+                width: 30rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                color: white;
+                text-align: center;
+                background: #212123;
+                letter-spacing: 0.2rem;
+                font-family: 'Work Sans', sans-serif;
+                font-size: 1.4rem;
+                margin-bottom: 0.6rem;
+            }
+        }
+    
+    
+        &--right{
+            height: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            flex-direction: column;
+            padding-bottom: 4rem;
+    
+            &__h1Container{
+                height: 7rem;
+                width: 82%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                background: #82191E;
+                margin-left: 0rem;
+        
+                &--h1{
+                    color: white;
+                    font-size: 2.6rem;
+                    letter-spacing: 0.6rem;
+                    padding: 2%;
+                    font-family: 'Josefin Sans', sans-serif;
+                    text-align: right;
+                }
+            }
+    
+            &__pContainer{
+                height: 13rem;
+                width: 82%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                background: #212123;
+                margin-left: 0rem;
+                
+                &--p{
+                    color: white;
+                    font-size: 1.3rem;
+                    letter-spacing: 0.2rem;
+                    text-align: right;
+                    padding: 2%;
+                    font-family: 'Work Sans', sans-serif;
+                }
+            }
+        }
+    }
 
 }  
     

@@ -107,19 +107,23 @@
 
 
 
+
+
+
+
+
 // Meida Queries
 
 
 // Mobile
 
 @media #{$mobile}{
-    
-    .homePage-master{
-        display: none;
-    }          
+             
 }
 
  
+
+
 
 // Tablet
 
@@ -132,10 +136,6 @@
     
         &__img{
             height: 3rem;
-        }
-    
-        &__hamburg{
-            display: block;        
         }
     
         &__bottom{
@@ -167,15 +167,13 @@
             &--started{
                 list-style-position: inside;
                 border: 2px solid white;
-                padding: 1.5rem;
+                padding: 3rem;
                 padding-right: 1.5rem;
                 padding-left: 1.5rem;
                 color: white;
                 font-size: 1.4rem;
                 letter-spacing: 0.4rem;
-                background: none;
-                cursor: pointer;
-                
+                margin-top: 2rem;   
             }
         }
     

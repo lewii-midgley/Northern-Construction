@@ -11,8 +11,9 @@
     &--h1{
         font-family: 'Josefin Sans', sans-serif;
         font-weight: bold;
-        font-size: 4rem;
+        font-size: 3.2rem;
         letter-spacing: 0.6rem;
+        text-align: center;
     }
 
     hr{
@@ -169,6 +170,15 @@
 
  
 @media #{$tablet}{
+
+    .contact-heading{
+    
+        &--h1{
+            font-size: 2.6rem;
+            letter-spacing: 0.4rem;
+            padding: 2%;
+        }
+    }
     
     .contact-container{
         height: 150vh;

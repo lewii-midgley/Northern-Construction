@@ -99,13 +99,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url(../img/background.jpeg);
-        background-color: rgb(44, 45, 46);
-        background-blend-mode: multiply;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        opacity: 90%;
+        background: white;
+        // background: url(../img/background.jpeg);
+        // background-color: rgb(19, 19, 19);
+        // background-blend-mode: multiply;
+        // background-size: cover;
+        // background-repeat: no-repeat;
+        // background-position: center;
+        // opacity: 90%;
     }
     
     .aboutPageSecond__left{
@@ -127,7 +128,6 @@
             font-family: 'Josefin Sans', sans-serif;
             font-weight: 700;
             color: #CF2730;
-            
             padding-bottom: 2.8rem;
             letter-spacing: 0.4rem;
         }
@@ -140,7 +140,7 @@
             max-width: 50ch;
             padding-bottom: 2.8rem;
 
-            color: white;
+            // color: white;
             text-align: center;
         }
     
@@ -152,7 +152,7 @@
             letter-spacing: 0.2rem;
             max-width: 56ch;
 
-            color: white;
+            // color: white;
             text-align: center;
         }
     
