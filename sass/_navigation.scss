@@ -114,6 +114,33 @@
 
 @media #{$mobile}{
 
+    .header{
+        padding-right: 3rem;
+    
+        &__items{
+        padding-right: 3rem;
+    
+        &--img{
+            height: 1.4rem;
+        }
+        
+        &--p{
+        font-size: 1rem;
+        }
+    }
+    
+       &__items2{    
+    
+        &--img{
+            height: 1.4rem;
+        }
+        
+        &--p{
+        font-size: 1rem;
+        }
+       }
+    }
+
     .navBar--ul{
         display: none;
     }

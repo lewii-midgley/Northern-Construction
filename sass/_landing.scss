@@ -8,13 +8,6 @@
         height: 3rem;
     }
 
-    &__hamburg{
-        height: 25px;
-        margin-top: 1%;
-        margin-right: 3%;
-        display: none;
-    }
-
     &__bottom{
         height: 81vh;
         width: 100vw;
@@ -118,6 +111,76 @@
 // Mobile
 
 @media #{$mobile}{
+
+    .homePage-master{
+
+        &__img{
+            height: 2.8rem;
+        }
+    
+        &__bottom{
+            height: 81vh;
+            width: 100vw;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            padding-left: 0%;
+            padding-top: 40%;
+    
+            &--h1{
+                font-size: 3.8rem;
+                letter-spacing: 0.4rem;
+                line-height: 5.2rem;
+                padding-bottom: 7rem;
+                text-align: center;
+            }
+    
+            &--p{
+                display: none;
+            }
+    
+    
+            &--started{
+                list-style-position: inside;
+                border: 2px solid white;
+                padding: 2.4rem;
+                padding-right: 1.7rem;
+                padding-left: 1.7rem;
+                font-size: 1.4rem;
+                letter-spacing: 0.4rem;
+            }
+        }
+    
+        &__quote{
+            border: 2px solid white;
+            margin-left: 3rem;
+            margin-top: 0.2rem;
+            letter-spacing: 0.2rem;
+            font-size: 1.2rem;
+            font-family: 'Work Sans', sans-serif;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            color: white;
+        }
+    
+        &__active{
+            color: white;
+        }
+    
+        &__hr{
+            color: white;
+            margin-top: 5px;
+        }
+    
+        &__nav li:hover{
+            opacity: 70%;
+        }
+    
+        &__quote:hover{
+            opacity: 100%;
+        }
+    }
              
 }
 
@@ -126,7 +189,6 @@
 
 
 // Tablet
-
 
 @media #{$tablet}{
 

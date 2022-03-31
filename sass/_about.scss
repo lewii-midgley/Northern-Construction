@@ -69,14 +69,81 @@
 // Media Quuries
 
 
+
+
+
+
+
+
 // Mobile
 
 @media #{$mobile}{
 
-    .aboutPage-container{
-        display: none;
+        .aboutPage-container{
+            width: 100vw;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .aboutPage__right{
+            width: 100%;
+            height: 45%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 1rem;
+        }
+        
+        .aboutPage__right--img{
+            height: 80%;
+            padding-bottom: 0rem;
+            padding-right: 0%;
+            padding: 0%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .aboutPage__left{
+            width: 100%;
+            height: 55%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-left: 0%;
+            padding-top: 1rem;
+        
+            &--heading{
+                font-size: 3.2rem;
+                letter-spacing: 0.4rem;
+                padding-bottom: 2.8rem;
+                max-width: 24ch;
+                text-align: center;
+        
+            }
+        
+            &--subHeading{
+                font-size: 1.8rem;
+                text-align: center;
+            }
+        
+            &--text{
+                font-size: 1.3rem;
+                text-align: center;
+                max-width: 50ch;
+            }
+        }
+        
     }
-}
+
+
+
+
+
 
 
 // Tablet

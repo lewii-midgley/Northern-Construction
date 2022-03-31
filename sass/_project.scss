@@ -318,6 +318,98 @@
 
 @media #{$mobile}{
 
+    .project-heading{
+    
+        &--h1{
+            font-size: 2.6rem;
+            letter-spacing: 0.4rem;
+            padding: 2%;
+       }
+    }
+
+    .project-container{
+        height: 60vh;
+        width: 100vw;
+        padding-left: 1%;
+        padding-right: 1%;
+    
+        &__left{
+            width: 95%;
+            height: 50%;
+            margin-bottom: 2rem;
+
+            &--box{
+                width: 78%;
+            }
+        }
+    
+        &__right{
+            width: 95%;
+            height: 50%;
+
+            &--box{
+                width: 78%;
+            }
+        }
+    }
+
+
+    .project-container2{
+        height: 60vh;
+        width: 100vw;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-top: 4rem;
+    
+        &__left2{
+            width: 95%;
+            height: 50%;
+            margin-bottom: 2rem;
+
+            &--box{
+                width: 78%;
+            }
+        }
+    
+        &__right2{
+            width: 95%;
+            height: 50%;
+
+            &--box{
+                width: 78%;
+            }
+        }
+    }
+
+    .project-container3{
+        height: 60vh;
+        width: 100vw;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-top: 4rem;
+    
+        &__left3{
+            width: 95%;
+            height: 50%;
+            margin-bottom: 2rem;
+
+            &--box{
+                width: 78%;
+            }
+        }
+    
+        &__right3{
+            width: 95%;
+            height: 50%;
+
+            &--box{
+                width: 78%;
+            }
+        }
+    }
+
+
+
 }
 
  
