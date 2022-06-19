@@ -1,8 +1,8 @@
 @import "var";
 
 .aboutPage-container{
+    height: 40rem;
     width: 100vw;
-    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,8 +151,8 @@
 @media #{$tablet}{
 
     .aboutPage-container{
+        height: 65rem;
         width: 100vw;
-        height: 85vh;
         display: flex;
         justify-content: center;
         align-items: center;

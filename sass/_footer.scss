@@ -1,7 +1,7 @@
 @import "var";
 
 .footer-container{
-    height: 25vh;
+    height: 20rem;
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -90,7 +90,7 @@
 @media #{$mobile}{
 
     .footer-container{
-        height: 35vh;
+        height: 40rem;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -98,7 +98,7 @@
         padding-top: 2rem;
 
         &__logo-img{
-            height: 6rem;
+            height: 4rem;
             margin-bottom: 2rem;
         }
 
@@ -133,8 +133,6 @@
 @media #{$tablet}{
 
     .footer-container{
-
-        height: 30vh;
         
         &__row3{
             display: none;

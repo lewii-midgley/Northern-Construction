@@ -1,12 +1,13 @@
 @import "var";
 
 .contact-heading{
-    height: 20vh;
+    height: 15rem;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 2px solid yellow;
 
     &--h1{
         font-family: 'Josefin Sans', sans-serif;
@@ -26,7 +27,7 @@
 }
 
 .contact-container{
-    height: 60vh;
+    height: 59rem;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -228,7 +229,7 @@
     }
     
     .contact-container{
-        height: 120vh;
+        height: 115rem;
         display: flex;
         justify-content: center;
         align-items: flex-start;

@@ -2,7 +2,7 @@
 
 
 .servicePage-container{
-    height: 95vh;
+    height: 70rem;
     width: 100vw;
     display: flex;
     background: url(../img/pratt-city-ala-september-13-2011-a-crane-lifts-the-trusses-for-frank-hardys-4ef4f4-1600.jpeg);
@@ -120,7 +120,7 @@
 @media #{$tablet}{
 
     .servicePage-container{
-        height: 95vh;
+        height: 62rem;
         width: 100vw;
         display: flex;
         flex-direction: column;

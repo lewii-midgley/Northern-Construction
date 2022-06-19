@@ -1,7 +1,7 @@
 @import "var";
 
 .homePage-master{
-    height: 96vh;
+    height: 97vh;
     width: 100vw;
 
     &__img{
@@ -113,6 +113,7 @@
 @media #{$mobile}{
 
     .homePage-master{
+        height: 100vh;
 
         &__img{
             height: 2.8rem;
@@ -122,18 +123,21 @@
             height: 81vh;
             width: 100vw;
             display: flex;
-            justify-content: flex-start;
+            justify-content: center;
             align-items: center;
             flex-direction: column;
             padding-left: 0%;
-            padding-top: 40%;
+            padding-bottom: 4rem;
     
             &--h1{
-                font-size: 3.8rem;
-                letter-spacing: 0.4rem;
-                line-height: 5.2rem;
-                padding-bottom: 7rem;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 3rem;
                 text-align: center;
+                letter-spacing: 0.8rem;
+                line-height: 4rem;
+                padding-bottom: 7rem;
             }
     
             &--p{
@@ -144,24 +148,25 @@
             &--started{
                 list-style-position: inside;
                 border: 2px solid white;
-                padding: 2.4rem;
-                padding-right: 1.7rem;
-                padding-left: 1.7rem;
+                padding: 3rem;
+                padding-right: 1.5rem;
+                padding-left: 1.5rem;
+                color: white;
                 font-size: 1.4rem;
                 letter-spacing: 0.4rem;
+                margin-top: 2rem;   
             }
         }
     
         &__quote{
             border: 2px solid white;
             margin-left: 3rem;
-            margin-top: 0.2rem;
+            margin-top: 0.6rem;
             letter-spacing: 0.2rem;
             font-size: 1.2rem;
             font-family: 'Work Sans', sans-serif;
             padding-top: 1.5rem;
             padding-bottom: 1.5rem;
-            color: white;
         }
     
         &__active{
@@ -193,8 +198,6 @@
 @media #{$tablet}{
 
     .homePage-master{
-        height: 96vh;
-        width: 100vw;
     
         &__img{
             height: 3rem;

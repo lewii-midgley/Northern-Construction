@@ -2,12 +2,13 @@
 
 
 .project-heading{
-    height: 20vh;
+    height: 15rem;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 
     &--h1{
     font-family: 'Josefin Sans', sans-serif;
@@ -28,7 +29,7 @@
 
 
 .project-container{
-    height: 35vh;
+    height: 25rem;
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -36,6 +37,7 @@
     flex-wrap: wrap;
     padding-left: 7%;
     padding-right: 7%;
+    border: 2px solid green;
 
     &__left{
         width: 35%;
@@ -48,6 +50,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        border: 2px solid yellow;
 
         &--box{
             height: 27%;
@@ -123,7 +126,7 @@
 
 
 .project-container2{
-    height: 35vh;
+    height: 25rem;
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -132,6 +135,7 @@
     padding-left: 7%;
     padding-right: 7%;
     margin-top: 4rem;
+    border: 2px solid red;
 
     &__left2{
         width: 35%;
@@ -219,7 +223,7 @@
 }
 
 .project-container3{
-    height: 35vh;
+    height: 25rem;
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -229,6 +233,7 @@
     padding-right: 7%;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    border: 2px solid green;
 
     &__left3{
         width: 35%;
