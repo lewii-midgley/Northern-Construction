@@ -3,12 +3,11 @@
 
 .projectAddOn-heading{
     height: 15rem;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid green;
 
  &--h1{
     font-family: 'Josefin Sans', sans-serif;
@@ -19,20 +18,20 @@
    }
 
     hr{
-        width: 8%;
+        width: 8rem;
         height: 4px;
         border: none;
         background: black;
-        margin-top: 1.5%;
+        margin-top: 2rem;
     }
 }
 
 
 .projectAddOn-container{
-    height: 130vh;
+    height: 100rem;
     width: 100vw;
     display: flex;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 
     &__left{
         height: 100%;
@@ -41,24 +40,27 @@
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
-        padding-left: 10rem;
+        padding-left: 8rem;
 
         &--img{
-            height: 25rem;
-            width: 38rem;
+            height: 28rem;
+            width: 46rem;
         }
     }
 
     &__right{
+        height: 34rem;
         width: 50%;
-        position: fixed;
-        margin-left: 55%;
-        padding-top: 2.4%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-left: 10rem;
 
         &--h1{
             font-family: 'Work Sans', sans-serif;
-            font-weight: 700;
-            font-size: 2.6rem;
+            font-weight: 600;
+            font-size: 2.4rem;
             letter-spacing: 0.2rem;
         }
 
@@ -66,10 +68,11 @@
             max-width: 59ch;
             font-family: 'Work Sans', sans-serif;
             font-weight: 500;
-            font-size: 1.2rem;
-            letter-spacing: 0.2rem;
-            padding-top: 2rem;
-            padding-bottom: 2rem;
+            font-size: 1.4rem;
+            letter-spacing: 0.1rem;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+            padding-right: 1rem;
         }
 
         &--button{
@@ -82,6 +85,11 @@
             border-radius: 5%;
             cursor: pointer;
         }
+
+        &--button:hover{
+            background: black;
+            color: white;
+        }
     }
 }
 
@@ -90,29 +98,24 @@
 
 @media #{$mobile}{
 
-}
-
- 
-@media #{$tablet}{
-
     .projectAddOn-heading{
-    
-     &--h1{
-        font-size: 2.6rem;
-        letter-spacing: 0.4rem;
-        padding: 2%;
-       }
+
+        &--h1{
+            font-size: 2.6rem;
+            letter-spacing: 0.4rem;
+            padding: 2%;
+        }
     }
-    
-    
+
     .projectAddOn-container{
-        height: 130vh;
+        height: 120rem;
         width: 100vw;
         display: flex;
+        flex-direction: column;
         margin-bottom: 4rem;
     
         &__left{
-            height: 100%;
+            height: 80%;
             width: 100%;
             display: flex;
             justify-content: space-evenly;
@@ -127,7 +130,69 @@
         }
     
         &__right{
-            display: none;
+            height: 20%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;  
+            margin-left: 0%;
+            margin-top: 0rem;
+            padding-top: 0%;
+            position: relative;
+            text-align: center;
+            padding-left: 0rem;
+        }
+    }
+}
+
+ 
+@media #{$tablet}{
+
+    .projectAddOn-heading{
+    
+     &--h1{
+        font-size: 2.8rem;
+        letter-spacing: 0.4rem;
+       }
+    }
+    
+    
+    .projectAddOn-container{
+        height: 120rem;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4rem;
+    
+        &__left{
+            height: 80%;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            padding-left: 0rem;
+            
+            &--img{
+                height: 25rem;
+                width: 38rem;
+            }
+        }
+    
+        &__right{
+            height: 20%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;  
+            margin-left: 0%;
+            margin-top: 0rem;
+            padding-top: 0%;
+            position: relative;
+            text-align: center;
+            padding-left: 0rem;
         }
     }
 }

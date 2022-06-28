@@ -43,6 +43,8 @@
     &__row3{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
         &--top{
             padding-bottom: 20px;
@@ -75,8 +77,8 @@
         letter-spacing: 0.2rem;
         background: #212123;
         padding: 1.4rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
         margin-bottom: 1rem;
         cursor: pointer;
     }
