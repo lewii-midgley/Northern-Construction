@@ -721,10 +721,11 @@ a:hover {
     .aboutPageSecond__right--heading {
       font-size: 3.2rem;
       text-align: center;
-      max-width: 24ch; }
+      max-width: none; }
     .aboutPageSecond__right--subHeading {
       font-size: 1.8rem;
       letter-spacing: 0.2rem;
+      max-width: none;
       text-align: center; }
     .aboutPageSecond__right--text {
       font-family: 'Work Sans', sans-serif;
@@ -732,7 +733,7 @@ a:hover {
       font-size: 1.5rem;
       padding-bottom: 2.8rem;
       letter-spacing: 0.2rem;
-      max-width: 56ch;
+      max-width: none;
       text-align: center; }
     .aboutPageSecond__right--h3 {
       font-size: 1.5rem;
@@ -740,10 +741,11 @@ a:hover {
       font-weight: normal;
       padding-bottom: 1.5rem;
       letter-spacing: 0.1rem;
-      text-align: center; }
+      text-align: center;
+      padding-left: 27%; }
     .aboutPageSecond__right--iconRow {
       display: flex;
-      padding-left: 40px; }
+      padding-left: 37%; }
     .aboutPageSecond__right--icons {
       height: 25px;
       padding-right: 22px; } }
@@ -1025,7 +1027,7 @@ a:hover {
     padding: 2%; }
 
   .contact-container {
-    height: 120vh;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;

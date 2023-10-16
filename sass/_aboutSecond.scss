@@ -84,6 +84,7 @@
 @media #{$mobile}{
 
     .aboutPageSecond-container{
+        // display: none;
         height: 60rem;
         width: 100vw;
         display: flex;
@@ -101,13 +102,13 @@
         &--heading{
             font-size: 3.2rem;
             text-align: center;
-            max-width: 24ch;
+            max-width: none;
         }
     
         &--subHeading{
             font-size: 1.8rem;
             letter-spacing: 0.2rem;
-            // max-width: 42ch;
+            max-width: none;
             // padding-bottom: 2.8rem;
             text-align: center;
         }
@@ -118,9 +119,12 @@
             font-size: 1.5rem;
             padding-bottom: 2.8rem;
             letter-spacing: 0.2rem;
-            max-width: 56ch;
+            max-width: none;
             text-align: center;
         }
+
+
+
     
         &--h3{
             font-size: 1.5rem;
@@ -129,17 +133,22 @@
             padding-bottom: 1.5rem;
             letter-spacing: 0.1rem;
             text-align: center;
+            padding-left: 27%;
         }
     
         &--iconRow{
             display: flex;
-            padding-left: 40px;
+            padding-left: 37%;
         }
     
         &--icons{
             height: 25px;
             padding-right: 22px;
         }
+
+
+
+
     }
     
 }
