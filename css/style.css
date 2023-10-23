@@ -414,18 +414,24 @@ a:hover {
     padding-left: 0%;
     padding-top: 1rem; }
     .aboutPage__left--heading {
-      font-size: 3.2rem;
+      font-size: 2.8rem;
       letter-spacing: 0.4rem;
       padding-bottom: 2.8rem;
       max-width: 24ch;
-      text-align: center; }
+      text-align: center;
+      padding-left: 3rem;
+      padding-right: 3rem; }
     .aboutPage__left--subHeading {
-      font-size: 1.8rem;
-      text-align: center; }
+      font-size: 1.6rem;
+      text-align: center;
+      padding-left: 3rem;
+      padding-right: 3rem; }
     .aboutPage__left--text {
       font-size: 1.3rem;
       text-align: center;
-      max-width: 50ch; } }
+      max-width: 50ch;
+      padding-left: 3rem;
+      padding-right: 3rem; } }
 @media (min-width: 601px) and (max-width: 1023px) {
   .aboutPage-container {
     height: 65rem;
@@ -707,7 +713,7 @@ a:hover {
 
 @media (max-width: 600px) {
   .aboutPageSecond-container {
-    height: 60rem;
+    height: 40rem;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -717,35 +723,33 @@ a:hover {
     display: none; }
 
   .aboutPageSecond__right {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     padding-left: 0rem; }
     .aboutPageSecond__right--heading {
-      font-size: 3.2rem;
+      font-size: 2.8rem;
       text-align: center;
-      max-width: none; }
+      padding-left: 3rem;
+      padding-right: 3rem; }
     .aboutPageSecond__right--subHeading {
-      font-size: 1.8rem;
-      letter-spacing: 0.2rem;
-      max-width: none;
+      font-size: 1.6rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
       text-align: center; }
     .aboutPageSecond__right--text {
-      font-family: 'Work Sans', sans-serif;
-      font-weight: 400;
-      font-size: 1.5rem;
-      padding-bottom: 2.8rem;
-      letter-spacing: 0.2rem;
-      max-width: none;
-      text-align: center; }
+      font-size: 1.3rem;
+      text-align: center;
+      padding-left: 3rem;
+      padding-right: 3rem; }
     .aboutPageSecond__right--h3 {
       font-size: 1.5rem;
-      font-family: 'Josefin Sans', sans-serif;
-      font-weight: normal;
-      padding-bottom: 1.5rem;
-      letter-spacing: 0.1rem;
       text-align: center;
-      padding-left: 27%; }
+      padding-left: 3rem;
+      padding-right: 3rem; }
     .aboutPageSecond__right--iconRow {
       display: flex;
-      padding-left: 37%; }
+      padding-left: 22px; }
     .aboutPageSecond__right--icons {
       height: 25px;
       padding-right: 22px; } }
