@@ -100,7 +100,7 @@ a:hover {
   .homePage-master {
     height: 100vh; }
     .homePage-master__img {
-      height: 2.8rem; }
+      height: 2rem; }
     .homePage-master__bottom {
       height: 81vh;
       width: 100vw;
@@ -1031,7 +1031,7 @@ a:hover {
     padding: 2%; }
 
   .contact-container {
-    height: 150vh;
+    height: 50rem;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -1039,17 +1039,10 @@ a:hover {
     margin-top: 0rem;
     margin-bottom: 5rem; }
     .contact-container__left {
-      width: 100%;
-      height: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      flex-direction: column;
-      padding-left: 18%;
-      margin-top: 2rem; }
+      display: none; }
     .contact-container__right {
       width: 100%;
-      height: 50%;
+      height: 100%;
       display: flex;
       justify-content: center;
       align-items: flex-start;
@@ -1357,7 +1350,7 @@ a:hover {
     padding: 2%; }
 
   .project-container {
-    height: 60vh;
+    height: 40rem;
     width: 100vw;
     padding-left: 1%;
     padding-right: 1%; }
@@ -1374,7 +1367,7 @@ a:hover {
         width: 78%; }
 
   .project-container2 {
-    height: 60vh;
+    height: 40rem;
     width: 100vw;
     padding-left: 1%;
     padding-right: 1%;
@@ -1392,7 +1385,7 @@ a:hover {
         width: 78%; }
 
   .project-container3 {
-    height: 60vh;
+    height: 40rem;
     width: 100vw;
     padding-left: 1%;
     padding-right: 1%;
@@ -1547,7 +1540,8 @@ a:hover {
     flex-direction: column;
     margin-bottom: 4rem; }
     .projectAddOn-container__left {
-      height: 80%;
+      display: none;
+      height: 70%;
       width: 100%;
       display: flex;
       justify-content: space-evenly;
@@ -1555,10 +1549,10 @@ a:hover {
       flex-direction: column;
       padding-left: 0rem; }
       .projectAddOn-container__left--img {
-        height: 25rem;
-        width: 38rem; }
+        height: 22rem;
+        width: 34rem; }
     .projectAddOn-container__right {
-      height: 20%;
+      height: 30%;
       width: 100%;
       display: flex;
       justify-content: center;
@@ -1569,7 +1563,9 @@ a:hover {
       padding-top: 0%;
       position: relative;
       text-align: center;
-      padding-left: 0rem; } }
+      padding-left: 0rem; }
+      .projectAddOn-container__right--p {
+        padding: 3rem; } }
 @media (min-width: 601px) and (max-width: 1023px) {
   .projectAddOn-heading--h1 {
     font-size: 2.8rem;
